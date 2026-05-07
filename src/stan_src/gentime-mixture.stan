@@ -50,7 +50,7 @@ data {
 }
 
 transformed data {
-    int D = 3; // number of distributions for incper and TOST (Gamma, Weibull, Lognormal)
+    int D = 3; // number of distributions for incper and gentime (Gamma, Weibull, Lognormal)
     real exposure_scale = 7.0;
 
     // here we identify the list of index cases = i.e. cases who serve solely as infectors
